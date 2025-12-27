@@ -80,7 +80,7 @@ export default function Home() {
               <div className="flex flex-wrap items-center gap-2">
                 <Badge className="gap-2">
                   <Sparkles className="h-3.5 w-3.5" />
-                  Free • Open source • No analytics
+                  Free • Open source
                 </Badge>
                 <Badge variant="outline" className="text-muted-foreground">
                   Runs only on youtube.com
@@ -410,7 +410,7 @@ export default function Home() {
                 {[
                   {
                     q: "Does it collect any data?",
-                    a: "No analytics. It runs only on https://www.youtube.com/* and stores the block list + metadata in chrome.storage.local.",
+                    a: "It runs only on https://www.youtube.com/* and stores the block list + metadata in chrome.storage.local.",
                   },
                   {
                     q: "Can I block my own channels?",
