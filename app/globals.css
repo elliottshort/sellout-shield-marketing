@@ -119,8 +119,15 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     @apply bg-background text-foreground;
+  }
+  /* Offset for sticky header when scrolling to anchors */
+  [id] {
+    scroll-margin-top: 5rem;
   }
 }
 

@@ -446,15 +446,12 @@ export default function Home() {
               <CardHeader>
                 <CardTitle>Support</CardTitle>
                 <CardDescription>
-                  Keep it sustainable without turning it into a product.
+                  Every small bit counts, thanks in advance for your support!
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="rounded-2xl border border-border/60 bg-background/20 p-5">
                   <p className="text-sm font-medium">Buy me a coffee</p>
-                  <p className="mt-2 text-sm text-muted-foreground">
-                    Add your link when you’re ready—this is a placeholder.
-                  </p>
                   <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center">
                     {links.coffee ? (
                       <a
